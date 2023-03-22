@@ -34,6 +34,7 @@ int main(int argc, const char * argv[]) {
         Person *p2 = p;//p2也指向person对象，此时有两个强指针指向
         p = [[Person alloc] init];//创建一个新的对象来让p指向，但是另外一个person对象仍然有强指针指向
         NSLog(@"------");
+        NSLog(@"这是一个gitmerge测试");
     }
     //所以对象会在程序结束之后释放
     return 0;
